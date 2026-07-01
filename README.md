@@ -51,11 +51,6 @@ dados de exemplo** automaticamente (usuário admin + contas de teste com tarefas
 
 Para parar: `docker compose down` (adicione `-v` para apagar também o volume do banco).
 
-> **Por que o app roda no navegador (Expo Web)?** Um emulador Android/iOS não roda
-> dentro de um container. Para atender ao pedido de "tudo containerizado", o app é
-> servido como **Expo Web** (mesmo código React Native via `react-native-web`). Para
-> rodar no **celular/emulador**, use o modo local do app (seção 3) com o Expo Go.
-
 ---
 
 ## 2. Comandos úteis (migrações, seed, testes)
